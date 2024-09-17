@@ -93,28 +93,28 @@ u_train = all_u_train[idx[0:N_u],:]      #choose corresponding u
     Training time: 21.98
     Test Error: 0.13519
 
-![](E:\MyResearchProjects\research_code\pinn_acedemic_remake\My_Version\Acoustic_PINN_AI4Science\picture\20230818021955.png)
+![](picture/20230818021955-1726555760143.png)
 
     N_u = 200
     N_f = 10000
     Training time: 21.98
     Test Error: 0.10051
 
-![](E:\MyResearchProjects\research_code\pinn_acedemic_remake\My_Version\Acoustic_PINN_AI4Science\picture\20230818022205.png)
+![](picture/20230818022205-1726555760143.png)
 
     N_u = 300
     N_f = 10000
     Training time: 22.74
     Test Error: 0.10007
 
-![](E:\MyResearchProjects\research_code\pinn_acedemic_remake\My_Version\Acoustic_PINN_AI4Science\picture\20230818022325.png)
+![](picture/20230818022325-1726555760143.png)
 
     N_u = 400 
     N_f = 10000
     Training time: 22.23
     Test Error: 0.08802
 
-![](E:\MyResearchProjects\research_code\pinn_acedemic_remake\My_Version\Acoustic_PINN_AI4Science\picture\20230818022449.png)
+![](picture/20230818022449-1726555760143.png)
 
 
 ### 改变PDE控制点数
@@ -124,28 +124,36 @@ u_train = all_u_train[idx[0:N_u],:]      #choose corresponding u
     Training time: 39.04
     Test Error: 0.10225
 
-![](E:\MyResearchProjects\research_code\pinn_acedemic_remake\My_Version\Acoustic_PINN_AI4Science\picture\20230818022808.png)
+![](picture/20230818022808-1726555760143.png)
 
     N_u = 400 
     N_f = 30000
     Training time: 50.46
     Test Error: 0.07301
 
-![](E:\MyResearchProjects\research_code\pinn_acedemic_remake\My_Version\Acoustic_PINN_AI4Science\picture\20230818023030.png)
+![](picture/20230818023030-1726555760143.png)
 
     N_u = 400 
     N_f = 40000
     Training time: 66.36
     Test Error: 0.10518
 
-![](E:\MyResearchProjects\research_code\pinn_acedemic_remake\My_Version\Acoustic_PINN_AI4Science\picture\20230818023800.png)
+![](picture/20230818023800-1726555760143.png)
 
     N_u = 400 
     N_f = 50000
     Training time: 81.16
     Test Error: 0.08737
 
-![](E:\MyResearchProjects\research_code\pinn_acedemic_remake\My_Version\Acoustic_PINN_AI4Science\picture\20230818023515.png)
+![](picture/20230818023515-1726555760143.png)
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
+</script>
+
+
 
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>

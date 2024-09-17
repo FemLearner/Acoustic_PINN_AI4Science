@@ -39,8 +39,9 @@ $$
 
 ## 优化目标
 
-For a typical initial and boundary value problem,  loss
-functions would take the form
+For a typical initial and boundary value problem,  loss functions would take the form
+
+
 $$
 L=\lambda_1L_{pde}+\lambda_2L_{bc}+\lambda_3L_{init}
 $$
@@ -58,6 +59,8 @@ L_{i} =\frac{1}{N_{i}}\sum_{i=1}^{N_{i}}[u(x_{bc}^i,t=0)-h_{init}^i]
 $$
 
 For the problem in frequency domain, $L_{init}$ is ignored , and the loss function can be simplified as:
+
+
 $$
 L=\lambda_1L_{pde}+\lambda_2L_{bc}
 $$

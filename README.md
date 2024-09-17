@@ -42,18 +42,35 @@ $$
 For a typical initial and boundary value problem,  loss
 functions would take the form
 $$
-L=\lambda_1L_{pde}+\lambda_2L_{bc}+\lambda_3L_{init}\\\\
-L_{pde} =\frac{1}{N_{pde}}\sum_{i=1}^{N_{pde}}[u(x_{pde}^i)]^2\\\\
-L_{bc} =\frac{1}{N_{bc}}\sum_{i=1}^{N_{bc}}[u(x_{bc}^i)-g_{bc}^i]\\\\
-L_{i} =\frac{1}{N_{i}}\sum_{i=1}^{N_{i}}[u(x_{bc}^i,t=0)-h_{init}^i]\\\\
+L=\lambda_1L_{pde}+\lambda_2L_{bc}+\lambda_3L_{init}
+$$
+
+$$
+L_{pde} =\frac{1}{N_{pde}}\sum_{i=1}^{N_{pde}}[u(x_{pde}^i)]^2
+$$
+
+$$
+L_{bc} =\frac{1}{N_{bc}}\sum_{i=1}^{N_{bc}}[u(x_{bc}^i)-g_{bc}^i]
+$$
+
+$$
+L_{i} =\frac{1}{N_{i}}\sum_{i=1}^{N_{i}}[u(x_{bc}^i,t=0)-h_{init}^i]
 $$
 
 For the problem in frequency domain, $L_{init}$ is ignored , and the loss function can be simplified as:
 $$
-L=\lambda_1L_{pde}+\lambda_2L_{bc}\\\\
-L_{pde} =\frac{1}{N_{pde}}\sum_{i=1}^{N_{pde}}[u(x_{pde}^i,y_{pde}^i)]^2\\\\
-L_{bc} =\frac{1}{N_{bc}}\sum_{i=1}^{N_{bc}}[u(x_{bc}^i,y_{bc}^i)-g_{bc}^i]\\\\
+L=\lambda_1L_{pde}+\lambda_2L_{bc}
 $$
+
+$$
+L_{pde} =\frac{1}{N_{pde}}\sum_{i=1}^{N_{pde}}[u(x_{pde}^i,y_{pde}^i)]^2
+$$
+
+$$
+L_{bc} =\frac{1}{N_{bc}}\sum_{i=1}^{N_{bc}}[u(x_{bc}^i,y_{bc}^i)-g_{bc}^i]
+$$
+
+
 
 ## 数据设计
 
